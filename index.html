@@ -72,7 +72,47 @@
             .left-panel { background: #0d6efd !important; -webkit-print-color-adjust: exact; }
             .section-title { -webkit-print-color-adjust: exact; }
         }
+
+        /* AJUSTES PARA IMPRESIÓN */
+@media print {
+
+    @page {
+        size: A4;
+        margin: 5mm;
+    }
+
+    body { 
+        background: white !important;
+        font-size: 0.80rem !important;
+    }
+
+    .container { 
+        padding: 0 !important;
+        box-shadow: none !important; 
+    }
+
+    aside.left-panel { 
+        background: #0d6efd !important; 
+        padding: 15px 12px !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    main { 
+        padding: 15px !important;
+    }
+
+    .profile-img {
+        width: 95px !important;
+        height: 95px !important;
+    }
+
+    h3 { font-size: 1.05rem !important; }
+    h4.section-title { font-size: 1rem !important; }
+    h6 { font-size: 0.85rem !important; }
+}
+
     </style>
+    
 </head>
 
 <body>
