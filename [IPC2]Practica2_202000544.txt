@@ -1,2 +1,19 @@
 https://roberto-gomez1.github.io/CurriculumVitae/
 https://github.com/Roberto-Gomez1/CurriculumVitae.git
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Curriculum Vitae - Roberto Gómez</title>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
+            <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/jspdf.umd.min.js"></script>
+    </body>
